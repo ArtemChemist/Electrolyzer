@@ -1,0 +1,20 @@
+D:\[Artem]\C#\!MySoft\IE resin rig\FlowMeter\bin\Release\IE rig.exe.manifest
+D:\[Artem]\C#\!MySoft\IE resin rig\FlowMeter\bin\Release\IE rig.application
+D:\[Artem]\C#\!MySoft\IE resin rig\FlowMeter\bin\Release\IE rig.exe
+D:\[Artem]\C#\!MySoft\IE resin rig\FlowMeter\bin\Release\IE rig.pdb
+D:\[Artem]\C#\!MySoft\IE resin rig\FlowMeter\bin\Release\NationalInstruments.MaxConfiguration.dll
+D:\[Artem]\C#\!MySoft\IE resin rig\FlowMeter\bin\Release\NationalInstruments.Common.xml
+D:\[Artem]\C#\!MySoft\IE resin rig\FlowMeter\bin\Release\NationalInstruments.DAQmx.xml
+D:\[Artem]\C#\!MySoft\IE resin rig\FlowMeter\bin\Release\NationalInstruments.MaxConfiguration.xml
+D:\[Artem]\C#\!MySoft\IE resin rig\FlowMeter\obj\Release\IE Rig Project.csprojResolveAssemblyReference.cache
+D:\[Artem]\C#\!MySoft\IE resin rig\FlowMeter\obj\Release\RadElChemBox.CromatogramGraph.resources
+D:\[Artem]\C#\!MySoft\IE resin rig\FlowMeter\obj\Release\RadElChemBox.frmGUI.resources
+D:\[Artem]\C#\!MySoft\IE resin rig\FlowMeter\obj\Release\RadElChemBox.Properties.Resources.resources
+D:\[Artem]\C#\!MySoft\IE resin rig\FlowMeter\obj\Release\IE Rig Project.csproj.GenerateResource.Cache
+D:\[Artem]\C#\!MySoft\IE resin rig\FlowMeter\obj\Release\IE rig.TrustInfo.xml
+D:\[Artem]\C#\!MySoft\IE resin rig\FlowMeter\obj\Release\IE rig.exe.manifest
+D:\[Artem]\C#\!MySoft\IE resin rig\FlowMeter\obj\Release\IE rig.application
+D:\[Artem]\C#\!MySoft\IE resin rig\FlowMeter\obj\Release\IE rig.exe
+D:\[Artem]\C#\!MySoft\IE resin rig\FlowMeter\obj\Release\IE rig.pdb
+D:\[Artem]\C#\!MySoft\Electrolyzer\FlowMeter\obj\Release\IE rig.exe
+D:\[Artem]\C#\!MySoft\Electrolyzer\FlowMeter\obj\Release\IE rig.pdb

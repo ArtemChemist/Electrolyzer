@@ -1,0 +1,523 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NationalInstruments.MaxConfiguration</name>
+    </assembly>
+    <members>
+        <member name="T:NationalInstruments.Max.CopyOptions">
+            <summary>
+            Specifies a list of options that affect the behavior of the <see cref="M:NationalInstruments.Max.Configuration.Copy(System.String,System.String)"/> method.
+            </summary>
+            <lastupdated>6/26/2006 12:12:10 PM</lastupdated>
+            <updatedby>Whitney Bates</updatedby>
+            <approved>True</approved>
+        </member>
+        <member name="F:NationalInstruments.Max.CopyOptions.Default">
+            <summary>
+            Performs a normal copy where <see cref="M:NationalInstruments.Max.Configuration.Copy(System.String,System.String)"/> tries to merge the source with the destination if the destination exists.
+            </summary>
+            <lastupdated>6/26/2006 4:39:15 PM</lastupdated>
+            <updatedby>Whitney Bates</updatedby>
+            <approved>True</approved>
+        </member>
+        <member name="F:NationalInstruments.Max.CopyOptions.FailIfNoItemsToCopy">
+            <summary>
+            Fails if <see cref="M:NationalInstruments.Max.Configuration.Copy(System.String,System.String)"/> finds no items to copy.
+            </summary>
+            <lastupdated>6/26/2006 12:12:16 PM</lastupdated>
+            <updatedby>Whitney Bates</updatedby>
+            <approved>True</approved>
+        </member>
+        <member name="F:NationalInstruments.Max.CopyOptions.FailIfOverwritingFile">
+            <summary>
+            Fails if <see cref="M:NationalInstruments.Max.Configuration.Copy(System.String,System.String)"/> would overwrite an existing file.
+            </summary>
+            <lastupdated>6/26/2006 12:12:31 PM</lastupdated>
+            <updatedby>Whitney Bates</updatedby>
+            <approved>True</approved>
+        </member>
+        <member name="F:NationalInstruments.Max.CopyOptions.FailIfOverwritingData">
+            <summary>
+            Fails if <see cref="M:NationalInstruments.Max.Configuration.Copy(System.String,System.String)"/> would overwrite a non-device item.
+            </summary>
+            <lastupdated>6/26/2006 12:12:22 PM</lastupdated>
+            <updatedby>Whitney Bates</updatedby>
+            <approved>True</approved>
+        </member>
+        <member name="F:NationalInstruments.Max.CopyOptions.FailIfOverwritingDevice">
+            <summary>
+            Fails if <see cref="M:NationalInstruments.Max.Configuration.Copy(System.String,System.String)"/> would overwrite a device item.
+            </summary>
+            <lastupdated>6/26/2006 12:12:26 PM</lastupdated>
+            <updatedby>Whitney Bates</updatedby>
+            <approved>True</approved>
+        </member>
+        <member name="F:NationalInstruments.Max.CopyOptions.FailIfWarningConflicts">
+            <summary>
+            Fails if there are any warning-severity conflicts.
+            </summary>
+            <lastupdated>6/26/2006 12:12:34 PM</lastupdated>
+            <updatedby>Whitney Bates</updatedby>
+            <approved>True</approved>
+        </member>
+        <member name="F:NationalInstruments.Max.CopyOptions.FailIfOrphanFiles">
+            <summary>
+            Fails if the source files are not owned by any product expert.
+            </summary>
+            <lastupdated>6/26/2006 12:12:19 PM</lastupdated>
+            <updatedby>Whitney Bates</updatedby>
+            <approved>True</approved>
+        </member>
+        <member name="F:NationalInstruments.Max.CopyOptions.ReplaceDestination">
+            <summary>
+            Replaces all destination data with the source data. 
+            </summary>
+            <remarks>
+            This only affects destination data of products involved in <see cref="M:NationalInstruments.Max.Configuration.Copy(System.String,System.String)"/>.
+            </remarks>
+            <lastupdated>6/26/2006 12:12:38 PM</lastupdated>
+            <updatedby>Whitney Bates</updatedby>
+            <approved>True</approved>
+        </member>
+        <member name="T:NationalInstruments.Max.Configuration">
+            <summary>
+            Contains methods to copy saved configuration data to or from 
+            a system, or to generate reports about those systems.
+            </summary>
+            <remarks>
+            You must call the methods in this class from a local system. You can use the class to copy data on remote systems to either 
+            a local or remote system, but you cannot run code using this class on a remote system.
+            <note type="note">
+            Refer to the <format type="italics">MAX Configuration API Help</format> section of the <format type="italics">MAX Help </format> for more information. 
+            To locate the help, launch MAX, select <format type="bold">Help<entity value="#187"/>MAX Help<entity value="#187"/>Configuration and Reporting<entity value="#187"/>MAX Configuration API Help</format>. 
+            </note>
+            </remarks>
+            <threadsafety safety="unsafe"/>
+            <lastupdated>12/13/2006 4:00:30 PM</lastupdated>
+            <updatedby>Whitney Bates</updatedby>
+            <approved>True</approved>
+        </member>
+        <member name="M:NationalInstruments.Max.Configuration.Copy(System.String,System.String)">
+            <summary>
+            Copies configuration data from the source to the destination. Use this method to import configuration data from a file into Measurement <entity value="amp"/> Automation Explorer (MAX), 
+            export configuration data from MAX out to a file, or copy configuration data directly from system to system. 
+            </summary>
+            <param name="source">
+            Specifies the configuration to copy. This input may specify either a configuration file or a MAX system 
+            configuration. To specify a configuration file, set <paramref name="source"/> to a file path. To specify a MAX configuration, 
+            set <paramref name="source"/> to <c>system://<entity value="lt"/>host<entity value="gt"/></c>, where <c><entity value="lt"/>host<entity value="gt"/></c> is a system hostname or IP address.
+            </param>
+            <param name="destination">
+            Specifies the destination to which to copy data. This input may specify either a configuration file or a MAX system 
+            configuration. To specify a configuration file, set <paramref name="destination"/> to a file path. To specify a MAX configuration, 
+            set <paramref name="destination"/> to <c>system://<entity value="lt"/>host<entity value="gt"/></c>, where <c><entity value="lt"/>host<entity value="gt"/></c> is a system hostname or IP address.
+            </param>
+            <exception cref="T:NationalInstruments.Max.MaxException">
+            A <see cref="T:NationalInstruments.Max.MaxException"/> has occurred.
+            </exception>
+            <exception cref="T:System.ArgumentException">
+                
+            One or more of the input arguments is invalid.</exception>
+            <exception cref="T:System.DllNotFoundException">
+            The <see cref="T:NationalInstruments.Max.Configuration"/> library cannot be found.
+            </exception>
+            <exception cref="T:System.EntryPointNotFoundException">
+            A required operation in the <see cref="T:NationalInstruments.Max.Configuration"/> library cannot be found.
+            </exception>
+            <threadsafety safety="unsafe"/>
+            <remarks>
+            	<para>
+            This method attempts to merge source data with the destination data.
+            </para>
+            This method requires the apartment state of the calling thread to be Single-Threaded Apartment (STA). You use this class to package configuration data for deployment on other systems 
+            or to back up and restore your system configuration.
+            </remarks>
+            <lastupdated>12/13/2006 3:14:52 PM</lastupdated>
+            <updatedby>Whitney Bates</updatedby>
+            <approved>True</approved>
+        </member>
+        <member name="M:NationalInstruments.Max.Configuration.Copy(System.String,System.String,NationalInstruments.Max.CopyOptions)">
+            <summary>
+            Copies configuration data from the source to the destination using the specified <see cref="T:NationalInstruments.Max.CopyOptions"/>. Use this method to import configuration data from a file into Measurement <entity value="amp"/> Automation Explorer (MAX), 
+            export configuration data from MAX out to a file, or copy configuration data directly from system to system. 
+            </summary>
+            <param name="source">
+            Specifies the configuration to copy. This input may specify either a configuration file or a MAX system 
+            configuration. To specify a configuration file, set <paramref name="source"/> to a file path. To specify a MAX configuration, 
+            set <paramref name="source"/> to <c>system://<entity value="lt"/>host<entity value="gt"/></c>, where <c><entity value="lt"/>host<entity value="gt"/></c> is a system hostname or IP address.
+            </param>
+            <param name="destination">
+            Specifies the destination to which to copy data. This input may specify either a configuration file or a MAX system 
+            configuration. To specify a configuration file, set <paramref name="destination"/> to a file path. To specify a MAX configuration, 
+            set <paramref name="destination"/> to <c>system://<entity value="lt"/>host<entity value="gt"/></c>, where <c><entity value="lt"/>host<entity value="gt"/></c> is a system hostname or IP address.
+            </param>
+            <param name="copyOptions">
+            A <see cref="T:NationalInstruments.Max.CopyOptions"/> that specifies the behavior of the copy. 
+            </param>
+            <exception cref="T:NationalInstruments.Max.MaxException">
+            A <see cref="T:NationalInstruments.Max.MaxException"/> has occurred.
+            </exception>
+            <exception cref="T:System.ArgumentException">
+                
+            One or more of the input arguments is invalid.</exception>
+            <exception cref="T:System.DllNotFoundException">
+            The <see cref="T:NationalInstruments.Max.Configuration"/> library cannot be found.
+            </exception>
+            <exception cref="T:System.EntryPointNotFoundException">
+            A required operation in the <see cref="T:NationalInstruments.Max.Configuration"/> library cannot be found.
+            </exception>
+            <threadsafety safety="unsafe"/>
+            <remarks>
+            This method requires the apartment state of the calling thread to be Single-Threaded Apartment (STA). You use this class to package configuration data for deployment on other systems 
+            or to back up and restore your system configuration.
+            </remarks>
+            <lastupdated>12/13/2006 3:46:06 PM</lastupdated>
+            <updatedby>Whitney Bates</updatedby>
+            <approved>True</approved>
+        </member>
+        <member name="M:NationalInstruments.Max.Configuration.Copy(System.String,System.String,NationalInstruments.Max.CopyOptions,System.String)">
+            <summary>
+            Copies configuration data from the source to the destination using the specified <see cref="T:NationalInstruments.Max.CopyOptions"/> and the specified <paramref name="product"/>. Use this method to import configuration data from a file into Measurement <entity value="amp"/> Automation Explorer (MAX), 
+            export configuration data from MAX out to a file, or copy configuration data directly from system to system. 
+            </summary>
+            <param name="source">
+            Specifies the configuration to copy. This input may specify either a configuration file or a MAX system 
+            configuration. To specify a configuration file, set <paramref name="source"/> to a file path. To specify a MAX configuration, 
+            set <paramref name="source"/> to <c>system://<entity value="lt"/>host<entity value="gt"/></c>, where <c><entity value="lt"/>host<entity value="gt"/></c> is a system hostname or IP address.
+            </param>
+            <param name="destination">
+            Specifies the destination to which to copy data. This input may specify either a configuration file or a MAX system 
+            configuration. To specify a configuration file, set <paramref name="destination"/> to a file path. To specify a MAX configuration, 
+            set <paramref name="destination"/> to <c>system://<entity value="lt"/>host<entity value="gt"/></c>, where <c><entity value="lt"/>host<entity value="gt"/></c> is a system hostname or IP address.
+            </param>
+            <param name="copyOptions">
+            A <see cref="T:NationalInstruments.Max.CopyOptions"/> that specifies the behavior of the copy. 
+            </param>
+            <param name="product">
+            Specifies which product's data to copy. If <paramref name="product"/> is <see langword="null"/>, this method copies all configuration data 
+            from the source. If you specify a product name, this method copies only that product's data. Product names are not 
+            case-sensitive. Examples of product names include <c>daqmx </c> and <c>serial</c>. For names of other products, 
+            refer to the product documentation.
+            </param>
+            <remarks>
+            This method requires the apartment state of the calling thread to be Single-Threaded Apartment (STA). You use this class to package configuration data for deployment on other systems 
+            or to back up and restore your system configuration.
+            <para>
+            The following code copies configuration data from the local system to a  <format type="monospace">.nce </format> file:
+            </para>
+            	<code lang="C#">
+            Configuration.Copy("system://127.0.0.1", "C:\\MySystem.nce", CopyOptions.ReplaceDestination, null);
+            </code>
+            	<code lang="VB.NET">
+            Configuration.Copy("system://127.0.0.1", "C:\\MySystem.nce", CopyOptions.ReplaceDestination, Nothing)
+            </code>
+            </remarks>
+            <exception cref="T:NationalInstruments.Max.MaxException">
+            A <see cref="T:NationalInstruments.Max.MaxException"/> has occurred.
+            </exception>
+            <exception cref="T:System.ArgumentException">
+                
+            One or more of the input arguments is invalid.</exception>
+            <exception cref="T:System.DllNotFoundException">
+            The <see cref="T:NationalInstruments.Max.Configuration"/> library cannot be found.
+            </exception>
+            <exception cref="T:System.EntryPointNotFoundException">
+            A required operation in the <see cref="T:NationalInstruments.Max.Configuration"/> library cannot be found.
+            </exception>
+            <threadsafety safety="unsafe"/>
+            <lastupdated>12/13/2006 3:48:48 PM</lastupdated>
+            <updatedby>Whitney Bates</updatedby>
+            <approved>True</approved>
+        </member>
+        <member name="M:NationalInstruments.Max.Configuration.GenerateReport(System.String,NationalInstruments.Max.ReportType)">
+            <summary>Creates reports to document the local system. Use this method to generate reports in the formats specified by 
+            <see cref="T:NationalInstruments.Max.ReportType"/>. This method overwrites the <paramref name="outputFilename"/>, if it exists.
+            </summary>
+            <param name="outputFilename">
+            The filename of the generated report. You must include the correct extension for the type of report to generate, such as <format type="monospace">.xml</format>,
+            <format type="monospace">.htm</format>, <format type="monospace">.html</format>, or <format type="monospace">.zip</format>.
+            </param>
+            <param name="reportType">
+            A <see cref="T:NationalInstruments.Max.ReportType"/> that specifies the type of report to generate. 
+            </param>
+            <remarks>
+            The HTML and XML formats provide human readable reports. 
+            Additionally, the XML format makes it convenient to archive reports with a configuration management tool and compare system reports.
+             
+            The technical support format generates a compressed file containing reports that are useful if you need to contact 
+            National Instruments Technical Support. The level of support for this method depends on each product's driver software.
+            <para>This method provides a one-way export only. You cannot import the XML-based report into Measurement <entity value="amp"/> Automation Explorer (MAX).</para>
+            </remarks>
+            <exception cref="T:NationalInstruments.Max.MaxException">
+            A <see cref="T:NationalInstruments.Max.MaxException"/> has occurred.
+            </exception>
+            <exception cref="T:System.ArgumentException">
+            The <paramref name="outputFilename"/> is either <see langword="null"/> or empty.</exception>
+            <exception cref="T:System.DllNotFoundException">
+            The <see cref="T:NationalInstruments.Max.Configuration"/> library cannot be found.
+            </exception>
+            <exception cref="T:System.EntryPointNotFoundException">
+            A required operation in the <see cref="T:NationalInstruments.Max.Configuration"/> library cannot be found.
+            </exception>
+            <threadsafety safety="unsafe"/>
+            <lastupdated>12/13/2006 4:00:42 PM</lastupdated>
+            <updatedby>Whitney Bates</updatedby>
+            <approved>True</approved>
+        </member>
+        <member name="M:NationalInstruments.Max.Configuration.GenerateReport(System.String,NationalInstruments.Max.ReportType,NationalInstruments.Max.ReportOptions)">
+            <summary>Creates reports to document the local system. Use this method to generate reports in the formats specified by 
+            <see cref="T:NationalInstruments.Max.ReportType"/>, using the specified <see cref="T:NationalInstruments.Max.ReportOptions"/>.
+            </summary>
+            <param name="outputFilename">
+            The filename of the generated report. You must include the correct extension for the type of report to generate, such as <format type="monospace">.xml</format>,
+            <format type="monospace">.htm</format>, <format type="monospace">.html</format>, or <format type="monospace">.zip</format>.
+            </param>
+            <param name="reportType">
+            A <see cref="T:NationalInstruments.Max.ReportType"/> that specifies the type of report to generate. 
+            </param>
+            <param name="reportOptions">
+            A <see cref="T:NationalInstruments.Max.ReportOptions"/> that specifies the behavior of the report generation. 
+            </param>
+            <remarks>
+            The HTML and XML formats provide human readable reports. 
+            Additionally, the XML format makes it convenient to archive reports with a configuration management tool and compare system reports.
+             
+            The technical support format generates a compressed file containing reports that are useful if you need to contact 
+            National Instruments Technical Support. The level of support for this method depends on each product's driver software.
+            <para>This method provides a one-way export only. You cannot import the XML-based report into Measurement <entity value="amp"/> Automation Explorer (MAX).</para>
+            </remarks>
+            <exception cref="T:NationalInstruments.Max.MaxException">
+            A <see cref="T:NationalInstruments.Max.MaxException"/> has occurred.
+            </exception>
+            <exception cref="T:System.ArgumentException">
+            The <paramref name="outputFilename"/> is either <see langword="null"/> or empty.</exception>
+            <exception cref="T:System.DllNotFoundException">
+            The <see cref="T:NationalInstruments.Max.Configuration"/> library cannot be found.
+            </exception>
+            <exception cref="T:System.EntryPointNotFoundException">
+            A required operation in the <see cref="T:NationalInstruments.Max.Configuration"/> library cannot be found.
+            </exception>
+            <threadsafety safety="unsafe"/>
+            <lastupdated>12/13/2006 4:02:11 PM</lastupdated>
+            <updatedby>Whitney Bates</updatedby>
+            <approved>True</approved>
+        </member>
+        <member name="M:NationalInstruments.Max.Configuration.GenerateReport(System.String,NationalInstruments.Max.ReportType,NationalInstruments.Max.ReportOptions,System.String)">
+            <summary>Creates reports to document the system specified by <paramref name="systemName"/>. Use this method to generate reports in the formats specified by 
+            <see cref="T:NationalInstruments.Max.ReportType"/>, using the specified <see cref="T:NationalInstruments.Max.ReportOptions"/>.
+            </summary>
+            <param name="outputFilename">
+            The filename of the generated report. You must include the correct extension for the type of report to generate, such as <format type="monospace">.xml</format>,
+            <format type="monospace">.htm</format>, <format type="monospace">.html</format>, or <format type="monospace">.zip</format>.
+            </param>
+            <param name="reportType">
+            A <see cref="T:NationalInstruments.Max.ReportType"/> that specifies the type of report to generate. 
+            </param>
+            <param name="reportOptions">
+            A <see cref="T:NationalInstruments.Max.ReportOptions"/> that specifies the behavior of the report generation. 
+            </param>
+            <param name="systemName">
+            The IP address or hostname of the system for which to generate the report. If <paramref name="systemName"/> is <see langword="null"/>, 
+            this method generates the configuration report of the local system. 
+            </param>
+            <remarks>
+            The HTML and XML formats provide human readable reports. 
+            Additionally, the XML format makes it convenient to archive reports with a configuration management tool and compare system reports.
+             
+            The technical support format generates a compressed file containing reports that are useful if you need to contact 
+            National Instruments Technical Support. The level of support for this method depends on each product's driver software.
+            <para>This method provides a one-way export only. You cannot import the XML-based report into Measurement <entity value="amp"/> Automation Explorer (MAX).</para>
+            	<para>
+            The following code generates an XML-based configuration report of the local system:
+            </para>
+            	<code lang="C#">
+            Configuration.GenerateReport("C:\\LocalSystemReport.xml", ReportType.Xml, ReportOptions.Default, null);
+            </code>
+            	<code lang="VB.NET">
+            Configuration.GenerateReport("C:\\LocalSystemReport.xml", ReportType.Xml, ReportOptions.Default, Nothing)
+            </code>
+            </remarks>
+            <exception cref="T:NationalInstruments.Max.MaxException">
+            A <see cref="T:NationalInstruments.Max.MaxException"/> has occurred.
+            </exception>
+            <exception cref="T:System.ArgumentException">
+            The <paramref name="outputFilename"/> is either <see langword="null"/> or empty.</exception>
+            <exception cref="T:System.DllNotFoundException">
+            The <see cref="T:NationalInstruments.Max.Configuration"/> library cannot be found.
+            </exception>
+            <exception cref="T:System.EntryPointNotFoundException">
+            A required operation in the <see cref="T:NationalInstruments.Max.Configuration"/> library cannot be found.
+            </exception>
+            <threadsafety safety="unsafe"/>
+            <lastupdated>12/13/2006 4:02:27 PM</lastupdated>
+            <updatedby>Whitney Bates</updatedby>
+            <approved>True</approved>
+        </member>
+        <member name="T:NationalInstruments.Max.ReportOptions">
+            <summary>
+            Specifies the behavior of the <see cref="M:NationalInstruments.Max.Configuration.GenerateReport(System.String,NationalInstruments.Max.ReportType)"/> method.
+            </summary>
+            <lastupdated>12/14/2006 11:30:00 AM</lastupdated>
+            <updatedby>Whitney Bates</updatedby>
+            <approved>True</approved>
+        </member>
+        <member name="F:NationalInstruments.Max.ReportOptions.Default">
+            <summary>
+            If the report already exists, then overwrite the report.
+            </summary>
+            <lastupdated>12/13/2006 4:03:22 PM</lastupdated>
+            <updatedby>Whitney Bates</updatedby>
+            <approved>True</approved>
+        </member>
+        <member name="F:NationalInstruments.Max.ReportOptions.FailIfOverwritingReport">
+            <summary>Fail if the report generation would overwrite an existing file.</summary>
+            <lastupdated>12/13/2006 4:00:12 PM</lastupdated>
+            <updatedby>Whitney Bates</updatedby>
+            <approved>True</approved>
+        </member>
+        <member name="T:NationalInstruments.Max.MaxException">
+            <summary>
+            Represents an error code received from the underlying driver.
+            </summary>
+            <remarks>
+            Errors occasionally occur when this API makes calls into the underlying driver. When errors occur, the
+            errors are exposed through this exception class.
+            </remarks>
+            <threadsafety safety="unsafe"/>
+            <lastupdated>6/26/2006 2:19:25 PM</lastupdated>
+            <updatedby>Whitney Bates</updatedby>
+            <approved>True</approved>
+        </member>
+        <member name="M:NationalInstruments.Max.MaxException.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:NationalInstruments.Max.MaxException"/> class.
+            </summary>
+            <lastupdated>6/26/2006 12:11:46 PM</lastupdated>
+            <updatedby>Whitney Bates</updatedby>
+            <approved>True</approved>
+        </member>
+        <member name="M:NationalInstruments.Max.MaxException.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:NationalInstruments.Max.MaxException"/> class using the
+            given error message.
+            </summary>
+            <param name="message">
+            Error message associated with this exception.
+            </param>
+            <lastupdated>6/26/2006 12:11:54 PM</lastupdated>
+            <updatedby>Whitney Bates</updatedby>
+            <approved>True</approved>
+        </member>
+        <member name="M:NationalInstruments.Max.MaxException.#ctor(System.String,System.Exception)">
+            <summary>
+            Initializes a new instance of the <see cref="T:NationalInstruments.Max.MaxException"/> class using the
+            given error message and inner exception.
+            </summary>
+            <param name="message">
+            Error message associated with this exception.
+            </param>
+            <param name="inner">
+            Inner exception that caused this exception to be thrown.
+            </param>
+            <lastupdated>6/26/2006 12:11:58 PM</lastupdated>
+            <updatedby>Whitney Bates</updatedby>
+            <approved>True</approved>
+        </member>
+        <member name="M:NationalInstruments.Max.MaxException.#ctor(System.String,System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:NationalInstruments.Max.MaxException"/>
+            class with the given error message and error code.
+            </summary>
+            <param name="message">
+            Error message associated with this exception.
+            </param>
+            <param name="errorCode">
+            Error code that caused this exception to be thrown.
+            </param>
+            <lastupdated>6/26/2006 12:12:06 PM</lastupdated>
+            <updatedby>Whitney Bates</updatedby>
+            <approved>True</approved>
+        </member>
+        <member name="M:NationalInstruments.Max.MaxException.#ctor(System.String,System.Exception,System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:NationalInstruments.Max.MaxException"/> class with the 
+            given error message, inner exception, and error code.
+            </summary>
+            <param name="message">
+            Error message associated with this exception.
+            </param>
+            <param name="inner">
+            Inner exception that caused this exception to be thrown.
+            </param>
+            <param name="errorCode">
+            Error code that caused this exception to be thrown.
+            </param>
+            <lastupdated>6/26/2006 12:12:01 PM</lastupdated>
+            <updatedby>Whitney Bates</updatedby>
+            <approved>True</approved>
+        </member>
+        <member name="M:NationalInstruments.Max.MaxException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Initializes a new instance of the <see cref="T:NationalInstruments.Max.MaxException"/> object using serialized data.
+            </summary>
+            <param name="info">
+            Object that holds the serialized object data.
+            </param>
+            <param name="context">
+            Contextual information about the source or destination.
+            </param>
+            <lastupdated>6/26/2006 12:11:50 PM</lastupdated>
+            <updatedby>Whitney Bates</updatedby>
+            <approved>True</approved>
+        </member>
+        <member name="M:NationalInstruments.Max.MaxException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Sets the <see cref="T:System.Runtime.Serialization.SerializationInfo"/> object with information about the exception.
+            </summary>
+            <param name="info">
+            Object that holds the serialized object data.
+            </param>
+            <param name="context">
+            Contextual information about the source or destination.
+            </param>
+            <lastupdated>6/26/2006 12:11:43 PM</lastupdated>
+            <updatedby>Whitney Bates</updatedby>
+            <approved>True</approved>
+        </member>
+        <member name="P:NationalInstruments.Max.MaxException.ErrorCode">
+            <summary>
+            Gets the error code that caused the error.
+            </summary>
+            <value>
+            The value of the error code.
+            </value>
+            <lastupdated>6/26/2006 12:11:40 PM</lastupdated>
+            <updatedby>Whitney Bates</updatedby>
+            <approved>True</approved>
+        </member>
+        <member name="T:NationalInstruments.Max.ReportType">
+            <summary>Specifies the format in which the report should be generated.</summary>
+            <lastupdated>12/13/2006 4:03:17 PM</lastupdated>
+            <updatedby>Whitney Bates</updatedby>
+            <approved>True</approved>
+        </member>
+        <member name="F:NationalInstruments.Max.ReportType.Xml">
+            <summary>Generate the report in XML format.</summary>
+            <lastupdated>12/13/2006 4:03:04 PM</lastupdated>
+            <updatedby>Whitney Bates</updatedby>
+            <approved>True</approved>
+        </member>
+        <member name="F:NationalInstruments.Max.ReportType.Html">
+            <summary>Generate the report in HTML format.</summary>
+            <lastupdated>12/13/2006 4:03:12 PM</lastupdated>
+            <updatedby>Whitney Bates</updatedby>
+            <approved>True</approved>
+        </member>
+        <member name="F:NationalInstruments.Max.ReportType.TechnicalSupport">
+            <summary>Generate the report in Technical Support format.</summary>
+            <lastupdated>12/13/2006 4:03:08 PM</lastupdated>
+            <updatedby>Whitney Bates</updatedby>
+            <approved>True</approved>
+        </member>
+    </members>
+</doc>

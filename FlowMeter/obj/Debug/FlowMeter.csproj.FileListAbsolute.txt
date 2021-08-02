@@ -1,0 +1,27 @@
+C:\[Artem]\FlowMeter\FlowMeter\bin\Debug\FlowMeter.exe
+C:\[Artem]\FlowMeter\FlowMeter\bin\Debug\FlowMeter.pdb
+C:\[Artem]\FlowMeter\FlowMeter\obj\Debug\ResolveAssemblyReference.cache
+C:\[Artem]\FlowMeter\FlowMeter\obj\Debug\FlowMeter.CromatogramGraph.resources
+C:\[Artem]\FlowMeter\FlowMeter\obj\Debug\FlowMeter.frmGUI.resources
+C:\[Artem]\FlowMeter\FlowMeter\obj\Debug\FlowMeter.Properties.Resources.resources
+C:\[Artem]\FlowMeter\FlowMeter\obj\Debug\FlowMeter.csproj.GenerateResource.Cache
+C:\[Artem]\FlowMeter\FlowMeter\obj\Debug\FlowMeter.exe
+C:\[Artem]\FlowMeter\FlowMeter\obj\Debug\FlowMeter.pdb
+C:\[Artem]\FlowMeter\FlowMeter\bin\Debug\FlowMeter.exe.config
+c:\[Artem]\Flow Meter PID\FlowMeter\bin\Debug\FlowMeter.exe.config
+c:\[Artem]\Flow Meter PID\FlowMeter\obj\Debug\FlowMeter.exe
+c:\[Artem]\Flow Meter PID\FlowMeter\obj\Debug\FlowMeter.pdb
+c:\[Artem]\Flow Meter PID\FlowMeter\bin\Debug\FlowMeter.exe
+c:\[Artem]\Flow Meter PID\FlowMeter\bin\Debug\FlowMeter.pdb
+c:\[Artem]\Flow Meter PID\FlowMeter\obj\Debug\ResolveAssemblyReference.cache
+c:\[Artem]\Flow Meter PID\FlowMeter\obj\Debug\FlowMeter.CromatogramGraph.resources
+c:\[Artem]\Flow Meter PID\FlowMeter\obj\Debug\FlowMeter.frmGUI.resources
+c:\[Artem]\Flow Meter PID\FlowMeter\obj\Debug\FlowMeter.Properties.Resources.resources
+c:\[Artem]\Flow Meter PID\FlowMeter\obj\Debug\FlowMeter.csproj.GenerateResource.Cache
+c:\[Artem]\Flow Meter PID\FlowMeter\bin\Debug\FlowMeter.exe.manifest
+c:\[Artem]\Flow Meter PID\FlowMeter\bin\Debug\FlowMeter.application
+c:\[Artem]\Flow Meter PID\FlowMeter\obj\Debug\FlowMeter.exe.manifest
+c:\[Artem]\Flow Meter PID\FlowMeter\obj\Debug\FlowMeter.application
+c:\[Artem]\UCLA\RadioElectroChem Box\FlowMeter\bin\Debug\FlowMeter.exe.config
+c:\[Artem]\UCLA\RadioElectroChem Box\FlowMeter\obj\Debug\FlowMeter.exe
+c:\[Artem]\UCLA\RadioElectroChem Box\FlowMeter\obj\Debug\FlowMeter.pdb

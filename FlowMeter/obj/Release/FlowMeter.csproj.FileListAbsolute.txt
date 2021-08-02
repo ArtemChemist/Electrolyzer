@@ -1,0 +1,24 @@
+C:\[Artem]\FlowMeter\FlowMeter\obj\Release\ResolveAssemblyReference.cache
+C:\[Artem]\FlowMeter\FlowMeter\obj\Release\FlowMeter.Properties.Resources.resources
+C:\[Artem]\FlowMeter\FlowMeter\obj\Release\FlowMeter.csproj.GenerateResource.Cache
+C:\[Artem]\FlowMeter\FlowMeter\obj\Release\FlowMeter.frmGUI.resources
+C:\[Artem]\FlowMeter\FlowMeter\obj\Release\FlowMeter.CromatogramGraph.resources
+C:\[Artem]\FlowMeter\FlowMeter\bin\Release\FlowMeter.exe
+C:\[Artem]\FlowMeter\FlowMeter\bin\Release\FlowMeter.pdb
+C:\[Artem]\FlowMeter\FlowMeter\obj\Release\FlowMeter.exe
+C:\[Artem]\FlowMeter\FlowMeter\obj\Release\FlowMeter.pdb
+C:\[Artem]\FlowMeter\FlowMeter\bin\Release\FlowMeter.exe.config
+c:\[Artem]\Flow Meter PID\FlowMeter\bin\Release\FlowMeter.exe.config
+c:\[Artem]\Flow Meter PID\FlowMeter\bin\Release\FlowMeter.exe
+c:\[Artem]\Flow Meter PID\FlowMeter\bin\Release\FlowMeter.pdb
+c:\[Artem]\Flow Meter PID\FlowMeter\obj\Release\ResolveAssemblyReference.cache
+c:\[Artem]\Flow Meter PID\FlowMeter\obj\Release\FlowMeter.CromatogramGraph.resources
+c:\[Artem]\Flow Meter PID\FlowMeter\obj\Release\FlowMeter.frmGUI.resources
+c:\[Artem]\Flow Meter PID\FlowMeter\obj\Release\FlowMeter.Properties.Resources.resources
+c:\[Artem]\Flow Meter PID\FlowMeter\obj\Release\FlowMeter.csproj.GenerateResource.Cache
+c:\[Artem]\Flow Meter PID\FlowMeter\obj\Release\FlowMeter.exe
+c:\[Artem]\Flow Meter PID\FlowMeter\obj\Release\FlowMeter.pdb
+c:\[Artem]\Flow Meter PID\FlowMeter\bin\Release\FlowMeter.exe.manifest
+c:\[Artem]\Flow Meter PID\FlowMeter\bin\Release\FlowMeter.application
+c:\[Artem]\Flow Meter PID\FlowMeter\obj\Release\FlowMeter.exe.manifest
+c:\[Artem]\Flow Meter PID\FlowMeter\obj\Release\FlowMeter.application

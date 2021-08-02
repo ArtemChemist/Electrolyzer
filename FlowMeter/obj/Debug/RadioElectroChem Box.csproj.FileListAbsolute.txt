@@ -1,0 +1,22 @@
+c:\[Artem]\UCLA\RadioElectroChem Box\FlowMeter\obj\Debug\ResolveAssemblyReference.cache
+c:\[Artem]\UCLA\RadioElectroChem Box\FlowMeter\obj\Debug\RadioElectroChem Box.csproj.GenerateResource.Cache
+c:\[Artem]\UCLA\RadioElectroChem Box\FlowMeter\obj\Debug\RadElChemBox.CromatogramGraph.resources
+c:\[Artem]\UCLA\RadioElectroChem Box\FlowMeter\obj\Debug\RadElChemBox.frmGUI.resources
+c:\[Artem]\UCLA\RadioElectroChem Box\FlowMeter\bin\Debug\RadElChemBox.exe.config
+c:\[Artem]\UCLA\RadioElectroChem Box\FlowMeter\bin\Debug\RadElChemBox.exe.manifest
+c:\[Artem]\UCLA\RadioElectroChem Box\FlowMeter\bin\Debug\RadElChemBox.application
+c:\[Artem]\UCLA\RadioElectroChem Box\FlowMeter\bin\Debug\RadElChemBox.exe
+c:\[Artem]\UCLA\RadioElectroChem Box\FlowMeter\bin\Debug\RadElChemBox.pdb
+c:\[Artem]\UCLA\RadioElectroChem Box\FlowMeter\obj\Debug\RadElChemBox.Properties.Resources.resources
+c:\[Artem]\UCLA\RadioElectroChem Box\FlowMeter\obj\Debug\RadElChemBox.exe.manifest
+c:\[Artem]\UCLA\RadioElectroChem Box\FlowMeter\obj\Debug\RadElChemBox.application
+c:\[Artem]\UCLA\RadioElectroChem Box\FlowMeter\obj\Debug\RadElChemBox.exe
+c:\[Artem]\UCLA\RadioElectroChem Box\FlowMeter\obj\Debug\RadElChemBox.pdb
+c:\[Artem]\UCLA\RadioElectroChem Box\FlowMeter\bin\Debug\NationalInstruments.Common.dll
+c:\[Artem]\UCLA\RadioElectroChem Box\FlowMeter\bin\Debug\NationalInstruments.Common.Native.dll
+c:\[Artem]\UCLA\RadioElectroChem Box\FlowMeter\bin\Debug\NationalInstruments.DAQmx.dll
+c:\[Artem]\UCLA\RadioElectroChem Box\FlowMeter\bin\Debug\NationalInstruments.MaxConfiguration.dll
+c:\[Artem]\UCLA\RadioElectroChem Box\FlowMeter\bin\Debug\NationalInstruments.NiLmClientDLL.dll
+c:\[Artem]\UCLA\RadioElectroChem Box\FlowMeter\bin\Debug\NationalInstruments.MaxConfiguration.xml
+c:\[Artem]\UCLA\RadioElectroChem Box\FlowMeter\bin\Debug\NationalInstruments.Common.xml
+c:\[Artem]\UCLA\RadioElectroChem Box\FlowMeter\bin\Debug\NationalInstruments.DAQmx.xml

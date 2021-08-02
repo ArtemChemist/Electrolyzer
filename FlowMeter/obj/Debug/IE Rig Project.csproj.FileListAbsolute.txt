@@ -1,0 +1,18 @@
+D:\[Artem]\C#\!MySoft\Electrolyzer\FlowMeter\bin\Debug\Electrolyzer.exe.manifest
+D:\[Artem]\C#\!MySoft\Electrolyzer\FlowMeter\bin\Debug\Electrolyzer.application
+D:\[Artem]\C#\!MySoft\Electrolyzer\FlowMeter\bin\Debug\Electrolyzer.exe
+D:\[Artem]\C#\!MySoft\Electrolyzer\FlowMeter\bin\Debug\Electrolyzer.pdb
+D:\[Artem]\C#\!MySoft\Electrolyzer\FlowMeter\bin\Debug\NationalInstruments.MaxConfiguration.dll
+D:\[Artem]\C#\!MySoft\Electrolyzer\FlowMeter\bin\Debug\NationalInstruments.Common.xml
+D:\[Artem]\C#\!MySoft\Electrolyzer\FlowMeter\bin\Debug\NationalInstruments.DAQmx.xml
+D:\[Artem]\C#\!MySoft\Electrolyzer\FlowMeter\bin\Debug\NationalInstruments.MaxConfiguration.xml
+D:\[Artem]\C#\!MySoft\Electrolyzer\FlowMeter\obj\Debug\IE Rig Project.csprojResolveAssemblyReference.cache
+D:\[Artem]\C#\!MySoft\Electrolyzer\FlowMeter\obj\Debug\RadElChemBox.CromatogramGraph.resources
+D:\[Artem]\C#\!MySoft\Electrolyzer\FlowMeter\obj\Debug\RadElChemBox.frmGUI.resources
+D:\[Artem]\C#\!MySoft\Electrolyzer\FlowMeter\obj\Debug\RadElChemBox.Properties.Resources.resources
+D:\[Artem]\C#\!MySoft\Electrolyzer\FlowMeter\obj\Debug\IE Rig Project.csproj.GenerateResource.Cache
+D:\[Artem]\C#\!MySoft\Electrolyzer\FlowMeter\obj\Debug\Electrolyzer.TrustInfo.xml
+D:\[Artem]\C#\!MySoft\Electrolyzer\FlowMeter\obj\Debug\Electrolyzer.exe.manifest
+D:\[Artem]\C#\!MySoft\Electrolyzer\FlowMeter\obj\Debug\Electrolyzer.application
+D:\[Artem]\C#\!MySoft\Electrolyzer\FlowMeter\obj\Debug\Electrolyzer.exe
+D:\[Artem]\C#\!MySoft\Electrolyzer\FlowMeter\obj\Debug\Electrolyzer.pdb

@@ -1,0 +1,120 @@
+c:\[Artem]\UCLA\RadioElectroChem Box\FlowMeter\bin\Release\RadElChemBox.exe.config
+c:\[Artem]\UCLA\RadioElectroChem Box\FlowMeter\bin\Release\RadElChemBox.exe.manifest
+c:\[Artem]\UCLA\RadioElectroChem Box\FlowMeter\bin\Release\RadElChemBox.application
+c:\[Artem]\UCLA\RadioElectroChem Box\FlowMeter\bin\Release\RadElChemBox.exe
+c:\[Artem]\UCLA\RadioElectroChem Box\FlowMeter\bin\Release\RadElChemBox.pdb
+c:\[Artem]\UCLA\RadioElectroChem Box\FlowMeter\bin\Release\NationalInstruments.Common.dll
+c:\[Artem]\UCLA\RadioElectroChem Box\FlowMeter\bin\Release\NationalInstruments.Common.Native.dll
+c:\[Artem]\UCLA\RadioElectroChem Box\FlowMeter\bin\Release\NationalInstruments.DAQmx.dll
+c:\[Artem]\UCLA\RadioElectroChem Box\FlowMeter\bin\Release\NationalInstruments.MaxConfiguration.dll
+c:\[Artem]\UCLA\RadioElectroChem Box\FlowMeter\bin\Release\NationalInstruments.NiLmClientDLL.dll
+c:\[Artem]\UCLA\RadioElectroChem Box\FlowMeter\bin\Release\NationalInstruments.MaxConfiguration.xml
+c:\[Artem]\UCLA\RadioElectroChem Box\FlowMeter\bin\Release\NationalInstruments.Common.xml
+c:\[Artem]\UCLA\RadioElectroChem Box\FlowMeter\bin\Release\NationalInstruments.DAQmx.xml
+c:\[Artem]\UCLA\RadioElectroChem Box\FlowMeter\obj\Release\ResolveAssemblyReference.cache
+c:\[Artem]\UCLA\RadioElectroChem Box\FlowMeter\obj\Release\RadElChemBox.CromatogramGraph.resources
+c:\[Artem]\UCLA\RadioElectroChem Box\FlowMeter\obj\Release\RadElChemBox.frmGUI.resources
+c:\[Artem]\UCLA\RadioElectroChem Box\FlowMeter\obj\Release\RadElChemBox.Properties.Resources.resources
+c:\[Artem]\UCLA\RadioElectroChem Box\FlowMeter\obj\Release\RadioElectroChem Box.csproj.GenerateResource.Cache
+c:\[Artem]\UCLA\RadioElectroChem Box\FlowMeter\obj\Release\RadElChemBox.exe.manifest
+c:\[Artem]\UCLA\RadioElectroChem Box\FlowMeter\obj\Release\RadElChemBox.application
+c:\[Artem]\UCLA\RadioElectroChem Box\FlowMeter\obj\Release\RadElChemBox.exe
+c:\[Artem]\UCLA\RadioElectroChem Box\FlowMeter\obj\Release\RadElChemBox.pdb
+C:\Users\ALebedev.PHARMACOLOGY\RadioElectroChem Box\FlowMeter\obj\Release\RadElChemBox.exe
+C:\Users\ALebedev.PHARMACOLOGY\RadioElectroChem Box\FlowMeter\obj\Release\RadElChemBox.pdb
+C:\Users\ALebedev.PHARMACOLOGY\RadioElectroChem Box\FlowMeter\obj\Release\RadioElectroChem Box.csprojResolveAssemblyReference.cache
+C:\Users\ALebedev.PHARMACOLOGY\RadioElectroChem Box\FlowMeter\obj\Release\RadElChemBox.CromatogramGraph.resources
+C:\Users\ALebedev.PHARMACOLOGY\RadioElectroChem Box\FlowMeter\obj\Release\RadElChemBox.frmGUI.resources
+C:\Users\ALebedev.PHARMACOLOGY\RadioElectroChem Box\FlowMeter\obj\Release\RadElChemBox.Properties.Resources.resources
+C:\Users\ALebedev.PHARMACOLOGY\RadioElectroChem Box\FlowMeter\obj\Release\RadioElectroChem Box.csproj.GenerateResource.Cache
+C:\Users\ALebedev.PHARMACOLOGY\RadioElectroChem Box\FlowMeter\bin\Release\RadElChemBox.exe.manifest
+C:\Users\ALebedev.PHARMACOLOGY\RadioElectroChem Box\FlowMeter\bin\Release\RadElChemBox.application
+C:\Users\ALebedev.PHARMACOLOGY\RadioElectroChem Box\FlowMeter\bin\Release\RadElChemBox.exe
+C:\Users\ALebedev.PHARMACOLOGY\RadioElectroChem Box\FlowMeter\bin\Release\RadElChemBox.pdb
+C:\Users\ALebedev.PHARMACOLOGY\RadioElectroChem Box\FlowMeter\bin\Release\NationalInstruments.Common.dll
+C:\Users\ALebedev.PHARMACOLOGY\RadioElectroChem Box\FlowMeter\bin\Release\NationalInstruments.Common.Native.dll
+C:\Users\ALebedev.PHARMACOLOGY\RadioElectroChem Box\FlowMeter\bin\Release\NationalInstruments.MaxConfiguration.dll
+C:\Users\ALebedev.PHARMACOLOGY\RadioElectroChem Box\FlowMeter\bin\Release\NationalInstruments.NiLmClientDLL.dll
+C:\Users\ALebedev.PHARMACOLOGY\RadioElectroChem Box\FlowMeter\bin\Release\NationalInstruments.DAQmx.xml
+C:\Users\ALebedev.PHARMACOLOGY\RadioElectroChem Box\FlowMeter\bin\Release\NationalInstruments.MaxConfiguration.xml
+C:\Users\ALebedev.PHARMACOLOGY\RadioElectroChem Box\FlowMeter\obj\Release\RadElChemBox.TrustInfo.xml
+C:\Users\ALebedev.PHARMACOLOGY\RadioElectroChem Box\FlowMeter\obj\Release\RadElChemBox.exe.manifest
+C:\Users\ALebedev.PHARMACOLOGY\RadioElectroChem Box\FlowMeter\obj\Release\RadElChemBox.application
+E:\RadioElectroChem Box\FlowMeter\obj\Release\RadElChemBox.exe
+E:\RadioElectroChem Box\FlowMeter\obj\Release\RadElChemBox.pdb
+D:\[Artem]\UCLA\RadioElectroChem Box\FlowMeter\obj\Release\RadElChemBox.exe
+D:\[Artem]\UCLA\RadioElectroChem Box\FlowMeter\obj\Release\RadElChemBox.pdb
+D:\[Artem]\UCLA\RadioElectroChem Box\FlowMeter\obj\Release\RadioElectroChem Box.csprojResolveAssemblyReference.cache
+D:\[Artem]\UCLA\RadioElectroChem Box\FlowMeter\obj\Release\RadElChemBox.CromatogramGraph.resources
+D:\[Artem]\UCLA\RadioElectroChem Box\FlowMeter\obj\Release\RadElChemBox.frmGUI.resources
+D:\[Artem]\UCLA\RadioElectroChem Box\FlowMeter\obj\Release\RadElChemBox.Properties.Resources.resources
+D:\[Artem]\UCLA\RadioElectroChem Box\FlowMeter\obj\Release\RadioElectroChem Box.csproj.GenerateResource.Cache
+D:\[Artem]\UCLA\RadioElectroChem Box\FlowMeter\bin\Release\RadElChemBox.exe.manifest
+D:\[Artem]\UCLA\RadioElectroChem Box\FlowMeter\bin\Release\RadElChemBox.application
+D:\[Artem]\UCLA\RadioElectroChem Box\FlowMeter\bin\Release\RadElChemBox.exe
+D:\[Artem]\UCLA\RadioElectroChem Box\FlowMeter\bin\Release\RadElChemBox.pdb
+D:\[Artem]\UCLA\RadioElectroChem Box\FlowMeter\bin\Release\NationalInstruments.MaxConfiguration.dll
+D:\[Artem]\UCLA\RadioElectroChem Box\FlowMeter\bin\Release\NationalInstruments.Common.xml
+D:\[Artem]\UCLA\RadioElectroChem Box\FlowMeter\bin\Release\NationalInstruments.DAQmx.xml
+D:\[Artem]\UCLA\RadioElectroChem Box\FlowMeter\bin\Release\NationalInstruments.MaxConfiguration.xml
+D:\[Artem]\UCLA\RadioElectroChem Box\FlowMeter\obj\Release\RadElChemBox.TrustInfo.xml
+D:\[Artem]\UCLA\RadioElectroChem Box\FlowMeter\obj\Release\RadElChemBox.exe.manifest
+D:\[Artem]\UCLA\RadioElectroChem Box\FlowMeter\obj\Release\RadElChemBox.application
+D:\[Artem]\UCLA\Potentiostat\FlowMeter\obj\Release\RadElChemBox.exe
+D:\[Artem]\UCLA\Potentiostat\FlowMeter\obj\Release\RadElChemBox.pdb
+D:\[Artem]\UCLA\Potentiostat\FlowMeter\bin\Release\RadElChemBox.exe.manifest
+D:\[Artem]\UCLA\Potentiostat\FlowMeter\bin\Release\RadElChemBox.application
+D:\[Artem]\UCLA\Potentiostat\FlowMeter\bin\Release\RadElChemBox.exe
+D:\[Artem]\UCLA\Potentiostat\FlowMeter\bin\Release\RadElChemBox.pdb
+D:\[Artem]\UCLA\Potentiostat\FlowMeter\bin\Release\NationalInstruments.MaxConfiguration.dll
+D:\[Artem]\UCLA\Potentiostat\FlowMeter\bin\Release\NationalInstruments.Common.xml
+D:\[Artem]\UCLA\Potentiostat\FlowMeter\bin\Release\NationalInstruments.DAQmx.xml
+D:\[Artem]\UCLA\Potentiostat\FlowMeter\bin\Release\NationalInstruments.MaxConfiguration.xml
+D:\[Artem]\UCLA\Potentiostat\FlowMeter\obj\Release\RadioElectroChem Box.csprojResolveAssemblyReference.cache
+D:\[Artem]\UCLA\Potentiostat\FlowMeter\obj\Release\RadElChemBox.CromatogramGraph.resources
+D:\[Artem]\UCLA\Potentiostat\FlowMeter\obj\Release\RadElChemBox.frmGUI.resources
+D:\[Artem]\UCLA\Potentiostat\FlowMeter\obj\Release\RadElChemBox.Properties.Resources.resources
+D:\[Artem]\UCLA\Potentiostat\FlowMeter\obj\Release\RadioElectroChem Box.csproj.GenerateResource.Cache
+D:\[Artem]\UCLA\Potentiostat\FlowMeter\obj\Release\RadElChemBox.TrustInfo.xml
+D:\[Artem]\UCLA\Potentiostat\FlowMeter\obj\Release\RadElChemBox.exe.manifest
+D:\[Artem]\UCLA\Potentiostat\FlowMeter\obj\Release\RadElChemBox.application
+F:\Potentiostat\FlowMeter\obj\Release\RadElChemBox.exe
+F:\Potentiostat\FlowMeter\obj\Release\RadElChemBox.pdb
+E:\Potentiostat\FlowMeter\obj\Release\RadElChemBox.exe
+E:\Potentiostat\FlowMeter\obj\Release\RadElChemBox.pdb
+D:\[Artem]\C#\!MySoft\Potentiostat\FlowMeter\obj\Release\RadElChemBox.exe
+D:\[Artem]\C#\!MySoft\Potentiostat\FlowMeter\obj\Release\RadElChemBox.pdb
+D:\[Artem]\C#\!MySoft\Potentiostat\FlowMeter\bin\Release\RadElChemBox.exe.manifest
+D:\[Artem]\C#\!MySoft\Potentiostat\FlowMeter\bin\Release\RadElChemBox.application
+D:\[Artem]\C#\!MySoft\Potentiostat\FlowMeter\bin\Release\RadElChemBox.exe
+D:\[Artem]\C#\!MySoft\Potentiostat\FlowMeter\bin\Release\RadElChemBox.pdb
+D:\[Artem]\C#\!MySoft\Potentiostat\FlowMeter\bin\Release\NationalInstruments.MaxConfiguration.dll
+D:\[Artem]\C#\!MySoft\Potentiostat\FlowMeter\bin\Release\NationalInstruments.Common.xml
+D:\[Artem]\C#\!MySoft\Potentiostat\FlowMeter\bin\Release\NationalInstruments.DAQmx.xml
+D:\[Artem]\C#\!MySoft\Potentiostat\FlowMeter\bin\Release\NationalInstruments.MaxConfiguration.xml
+D:\[Artem]\C#\!MySoft\Potentiostat\FlowMeter\obj\Release\RadioElectroChem Box.csprojResolveAssemblyReference.cache
+D:\[Artem]\C#\!MySoft\Potentiostat\FlowMeter\obj\Release\RadElChemBox.CromatogramGraph.resources
+D:\[Artem]\C#\!MySoft\Potentiostat\FlowMeter\obj\Release\RadElChemBox.frmGUI.resources
+D:\[Artem]\C#\!MySoft\Potentiostat\FlowMeter\obj\Release\RadElChemBox.Properties.Resources.resources
+D:\[Artem]\C#\!MySoft\Potentiostat\FlowMeter\obj\Release\RadioElectroChem Box.csproj.GenerateResource.Cache
+D:\[Artem]\C#\!MySoft\Potentiostat\FlowMeter\obj\Release\RadElChemBox.TrustInfo.xml
+D:\[Artem]\C#\!MySoft\Potentiostat\FlowMeter\obj\Release\RadElChemBox.exe.manifest
+D:\[Artem]\C#\!MySoft\Potentiostat\FlowMeter\obj\Release\RadElChemBox.application
+D:\[Artem]\C#\!MySoft\IE resin rig\FlowMeter\bin\Release\IE rig.exe.manifest
+D:\[Artem]\C#\!MySoft\IE resin rig\FlowMeter\bin\Release\IE rig.application
+D:\[Artem]\C#\!MySoft\IE resin rig\FlowMeter\bin\Release\IE rig.exe
+D:\[Artem]\C#\!MySoft\IE resin rig\FlowMeter\bin\Release\IE rig.pdb
+D:\[Artem]\C#\!MySoft\IE resin rig\FlowMeter\bin\Release\NationalInstruments.MaxConfiguration.dll
+D:\[Artem]\C#\!MySoft\IE resin rig\FlowMeter\bin\Release\NationalInstruments.Common.xml
+D:\[Artem]\C#\!MySoft\IE resin rig\FlowMeter\bin\Release\NationalInstruments.DAQmx.xml
+D:\[Artem]\C#\!MySoft\IE resin rig\FlowMeter\bin\Release\NationalInstruments.MaxConfiguration.xml
+D:\[Artem]\C#\!MySoft\IE resin rig\FlowMeter\obj\Release\RadioElectroChem Box.csprojResolveAssemblyReference.cache
+D:\[Artem]\C#\!MySoft\IE resin rig\FlowMeter\obj\Release\RadElChemBox.CromatogramGraph.resources
+D:\[Artem]\C#\!MySoft\IE resin rig\FlowMeter\obj\Release\RadElChemBox.frmGUI.resources
+D:\[Artem]\C#\!MySoft\IE resin rig\FlowMeter\obj\Release\RadElChemBox.Properties.Resources.resources
+D:\[Artem]\C#\!MySoft\IE resin rig\FlowMeter\obj\Release\RadioElectroChem Box.csproj.GenerateResource.Cache
+D:\[Artem]\C#\!MySoft\IE resin rig\FlowMeter\obj\Release\IE rig.TrustInfo.xml
+D:\[Artem]\C#\!MySoft\IE resin rig\FlowMeter\obj\Release\IE rig.exe.manifest
+D:\[Artem]\C#\!MySoft\IE resin rig\FlowMeter\obj\Release\IE rig.application
+D:\[Artem]\C#\!MySoft\IE resin rig\FlowMeter\obj\Release\IE rig.exe
+D:\[Artem]\C#\!MySoft\IE resin rig\FlowMeter\obj\Release\IE rig.pdb
